@@ -65,7 +65,7 @@ async def sarcastic_boot():
     os.system("clear")
     header = Table(show_header=True, header_style="bold yellow")
     header.add_column(
-        "\x46\x41\x4c\x4c\x45\x4e\x20\x4d\x55\x53\x49\x43\x20\x42\x4f\x54\x20\x3a\x20\x54\x48\x45\x20\x4d\x4f\x53\x54\x20\x41\x44\x56\x41\x4e\x43\x45\x44\x20\x4d\x55\x53\x49\x43\x20\x50\x4c\x41\x59\x45\x52\x20\x42\x4f\x54"
+        "\n┏━━━━━━━━━━━━━━━━━━━━━━┓\n┣★ SARCASTIC MUSIC BOT ★\n┗━━━━━━━━━━━━━━━━━━━━━━┛"
     )
     console.print(header)
     with console.status(
