@@ -9,7 +9,7 @@ from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFo
 from youtubesearchpython.__future__ import VideosSearch
 
 
-SarcasticMusic.Helpers.logging import BOT_ID, LOGGER, app
+from SarcasticMusic.Helpers.logging import BOT_ID, LOGGER, app
 
 def changeImageSize(maxWidth, maxHeight, image):
     widthRatio = maxWidth / image.size[0]
