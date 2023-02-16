@@ -15,7 +15,7 @@ from SarcasticMusic.Helpers.PyTgCalls import Queues
 from SarcasticMusic.Helpers.PyTgCalls.Converter import convert
 from SarcasticMusic.Helpers.PyTgCalls.Downloader import download
 from SarcasticMusic.Helpers.Database import remove_active_chat
-from SarcasticMusic.Helpers.Thumbnails import thumb_init
+
 from SarcasticMusic.Helpers.Inline import primary_markup
 from SarcasticMusic.Helpers.Changers import time_to_seconds
 from SarcasticMusic.Helpers.Ytinfo import get_yt_info_id
